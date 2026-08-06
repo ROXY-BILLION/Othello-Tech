@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    text-align: center;
+}
+body{
+    background-color: white;
+}
+svg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;
+}
+.left-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-menu li:hover{
+    color: green;
+}
+.right-menu{
+    display: flex;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 50px;
+    margin: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.right-menu .p:hover{
+    color: green;
+}
+.right-menu .p1{
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 1rem;
+   padding: 6px;
+   cursor: pointer;
+}
+.right-menu .p1:hover{
+  background-color: whitesmoke;
+}
+.right-menu .p2{
+   border: 1px solid black;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 1rem;
+   padding: 6px;
+   color: white;
+   background-color: black;
+   cursor: pointer;
+}
+.right-menu .p2:hover{
+    background-color: rgb(52, 48, 48);
+}
+.hero-top{
+    background-color: rgb(39, 62, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: white;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 2rem;
+    padding: 6px;
+}
+.btn:hover{
+    background-color: rgb(30, 169, 93);
+    cursor: pointer;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(25, 125, 70);
+    height: 60vh;
+    margin-bottom: 50px;
+}
+.hero-bottom .box1 img{
+    width: 50vw;
+    height: 60vh;
+}
+.hero-bottom .box2{
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+}
+.hero-bottom .box2 h2{
+    font-size: 30px;
+    padding: 50px;
+}
+.hero-bottom .box2 p{
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+}
+.hero-bottom .button{
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 25px;
+    font-weight: bold;
+    padding: 6px;
+    color: white;
+    background-color: rgb(27, 65, 27);
+}
+.hero-bottom .button:hover{
+    background-color: rgb(102, 179, 102);
+}
+.bottom{
+    text-align: center;
+}
+.Box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.Box1 h3{
+    font-size: 28px;
+}
+.Box1 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+}
+.Box1 ul li{
+    font-size: 20px;
+}
+.bottom-p {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    border-bottom: 2px solid rgb(61, 54, 54);
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 90px;
+}
+ul li{
+    list-style: none;
+}
+.footer{
+    margin: 60px;
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.fa-brands{
+    font-size: 35px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
